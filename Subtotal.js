@@ -20,7 +20,7 @@ function Subtotal() {
                 </>
             )}
             decimalScale={2}
-            value={65000} // part of the home work
+            value={getBasketTotal(basket)} // part of the home work
             displayType={"text"}
             thousandSeparator={true}
             prefix={"INR:"}
